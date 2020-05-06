@@ -1,16 +1,16 @@
 # covid19tracking
+You can open in Visual Studios add Rest Client dependency or Intellij/Android Studios
 
-A new Flutter application.
+Go to https://apimarket.nubentos.com/store/?requestedPage=/store/site/pages/applications.jag?tenant%3Dnubentos.com&tenant=nubentos.com
+And signup for a new account and add you API and token key to 
 
-## Getting Started
+    "rest-client.environmentVariables": {
+        "sandbox": {
+            "baseUrl": "https://apigw.nubentos.com:443",
+            "authorization": "API KEY GOES HERE",
+            "accessToken": "TOKEN GOES HERE"
+        },
+        "production": {}
+    }
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+}

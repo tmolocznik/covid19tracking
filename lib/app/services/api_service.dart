@@ -60,6 +60,7 @@ class APIService {
     Endpoint.recovered: 'data',
     Endpoint.todayDeaths: 'data',
     Endpoint.deaths: 'data',
+    Endpoint.todayCases: 'data'
 
 
   };

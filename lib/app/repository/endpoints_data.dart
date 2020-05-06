@@ -11,10 +11,11 @@ class EndpointsData {
   EndpointData get recovered => values[Endpoint.recovered];
   EndpointData get todayDeaths => values[Endpoint.todayDeaths];
   EndpointData get deaths => values[Endpoint.deaths];
+  EndpointData get todayCases => values[Endpoint.todayCases];
 
 
 
   @override
   String toString() =>
-      'cases: $cases, active: $active, recovered: $recovered,todayDeaths: $todayDeaths, deaths: $deaths' ;
+      'cases: $cases, active: $active, recovered: $recovered,todayDeaths: $todayDeaths, deaths: $deaths, todayCases: $todayCases' ;
 }

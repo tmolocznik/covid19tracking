@@ -61,6 +61,8 @@ class DataRepository {
           accessToken: _accessToken, endpoint: Endpoint.todayDeaths),
       apiService.getEndpointData(
           accessToken: _accessToken, endpoint: Endpoint.deaths),
+     apiService.getEndpointData(
+         accessToken: _accessToken, endpoint: Endpoint.todayCases),
     ]);
    return EndpointsData(
      values: {
@@ -69,6 +71,7 @@ class DataRepository {
        Endpoint.recovered: values[2],
        Endpoint.todayDeaths: values[3],
        Endpoint.deaths: values[4],
+       Endpoint.todayCases: values[5],
 
      },
    );

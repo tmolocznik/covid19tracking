@@ -6,7 +6,8 @@ enum Endpoint {
   active,
   todayDeaths,
   recovered,
-  deaths
+  deaths,
+  todayCases
 
 }
 
@@ -41,6 +42,7 @@ class API {
     Endpoint.active: 'active',
     Endpoint.recovered: 'recovered',
     Endpoint.todayDeaths: 'todayDeaths',
-    Endpoint.deaths: 'deaths'
+    Endpoint.deaths: 'deaths',
+    Endpoint.todayCases: 'todayCases'
   };
 }

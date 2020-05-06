@@ -19,8 +19,9 @@ class EndpointCard extends StatelessWidget {
     Endpoint.cases: EndpointCardData('Cases', 'assets/count.png', Color(0xFFFFF492)),
     Endpoint.active: EndpointCardData('Active', 'assets/suspect.png', Color(0xFFEEDA28)),
     Endpoint.recovered: EndpointCardData('Recovered', 'assets/patient.png', Color(0xFF70A901)),
-    Endpoint.todayDeaths: EndpointCardData('Todays Deaths', 'assets/death.png', Color(0xFFE40000)),
-    Endpoint.deaths: EndpointCardData('Total Deaths', 'assets/death.png', Color(0xFFE40000))
+    Endpoint.todayDeaths: EndpointCardData('Today\'s Deaths', 'assets/death.png', Color(0xFFE40000)),
+    Endpoint.deaths: EndpointCardData('Total Deaths', 'assets/death.png', Color(0xFFE40000)),
+    Endpoint.todayCases: EndpointCardData('Today\'s Cases', 'assets/count.png', Color(0xFF70A901))
   };
 
   String get formattedValue {

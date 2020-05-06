@@ -2,7 +2,7 @@
 import 'package:covid19tracking/app/services/api.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-
+//
 class EndpointCardData {
   EndpointCardData(this.title, this.assetName, this.color);
   final String title;

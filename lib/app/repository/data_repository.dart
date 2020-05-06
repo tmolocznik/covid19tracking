@@ -5,7 +5,6 @@ import 'package:covid19tracking/app/services/data_cache_service.dart';
 import 'package:covid19tracking/app/services/endpoint_data.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart';
-
 import 'endpoints_data.dart';
 
 class DataRepository {

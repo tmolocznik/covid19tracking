@@ -2,7 +2,7 @@
 import 'package:covid19tracking/app/services/api.dart';
 import 'package:covid19tracking/app/services/endpoint_data.dart';
 import 'package:flutter/foundation.dart';
-
+//
 class EndpointsData {
   EndpointsData({@required this.values});
   final Map<Endpoint, EndpointData> values;
